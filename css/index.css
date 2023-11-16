@@ -1,5 +1,5 @@
 body{
-    /* background-color: red; */
+    background-color: lightgray;
     margin: 0 10px;
 }
 
@@ -8,4 +8,16 @@ body{
 }
 h3{
     margin-top: 50px;
+}
+
+p~span {
+    color: red !important;
+}
+
+[title="Click for more details"]:hover {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+button[data-toggle="modal"]:hover {
+    background-color: #ffcc00; /* Change to the desired hover color */
+    color: #333; /* Change to the desired text color */
 }
